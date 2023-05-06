@@ -1,12 +1,5 @@
 import { Outlet } from "react-router-dom";
-import { Box, GridItem, Grid, Text, Container } from "@chakra-ui/react";
-// import { Logo } from "~/ui/elements";
-
-const layout = `
-  "header header"
-  "main main"
-  "footer footer"
-`;
+import { Container } from "@chakra-ui/react";
 
 export const RootLayout = () => {
   return (

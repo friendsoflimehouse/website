@@ -70,7 +70,7 @@ export const GetStartedPage = () => {
           of asthma and other allergic and cardiovascular diseases.
         </Text>
       </Widget>
-      <Widget w="100%" bg="gray.100" colSpan={2} bg="gray.500">
+      <Widget w="100%" bg="gray.100" colSpan={2}>
         As a part of the Neighbourhood Forum, we organized four personal
         consultations and a media one with several hundred residents of
         Limehouse that defined four priorities that the community has: Not
