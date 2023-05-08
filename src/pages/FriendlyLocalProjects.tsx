@@ -27,7 +27,7 @@ export const FriendlyLocalProjects = () => {
         </Link>
       </ListItem>
       <ListItem>
-        <Link color="blue.500" href="//romanroadtrust.co.uk" isExternal>
+        <Link color="blue.500" href="https://romanroadtrust.co.uk" isExternal>
           Roman Road Trust
         </Link>
       </ListItem>
