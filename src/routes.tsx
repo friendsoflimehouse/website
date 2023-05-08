@@ -1,24 +1,53 @@
-import { createBrowserRouter } from "react-router-dom";
-
-// layouts
-import { RootLayout } from "~/ui/layouts";
-
 // pages
-import { GetStartedPage, NotFoundPage } from "~/pages";
+import {
+  HowBadIsTheAirInLimeHouse,
+  FriendlyLocalProjects,
+  WhatWeWant,
+  WhyLimeHouseNeedsGreenInfrastructure,
+} from "~/pages";
 
-export const routes = createBrowserRouter([
+import { MdOutlineHandshake } from "react-icons/md";
+import { BiLeaf } from "react-icons/bi";
+import { HiOutlinePuzzle } from "react-icons/hi";
+import { FaRegGrimace } from "react-icons/fa";
+import { As } from "@chakra-ui/react";
+
+type Route = {
+  name?: string;
+  showInHeaderNav?: boolean;
+  path: string;
+  icon?: As;
+  element: JSX.Element;
+};
+
+export const onlyHeaderLinks = (route: Route) => route.showInHeaderNav;
+export const routes: Route[] = [
   {
     path: "/",
-    element: <RootLayout />,
-    children: [
-      {
-        path: "/",
-        element: <GetStartedPage />,
-      },
-      {
-        path: "*",
-        element: <NotFoundPage /> 
-      }
-    ],
+    name: "What we want?",
+    icon: HiOutlinePuzzle,
+    showInHeaderNav: true,
+    element: <WhatWeWant />,
   },
-]);
+  {
+    name: "How bad is the air in limehouse?",
+    path: "/how-bad-is-the-air-in-limehouse",
+    icon: FaRegGrimace,
+    showInHeaderNav: true,
+    element: <HowBadIsTheAirInLimeHouse />,
+  },
+  {
+    name: "Why limehouse needs GI?",
+    path: "/why-limehouse-needs-green-infrastructure",
+    icon: BiLeaf,
+    showInHeaderNav: true,
+    element: <WhyLimeHouseNeedsGreenInfrastructure />,
+  },
+  {
+    name: "Friendly projects",
+    path: "/friendly-local-projects",
+    icon: MdOutlineHandshake,
+    showInHeaderNav: true,
+    element: <FriendlyLocalProjects />,
+  },
+];

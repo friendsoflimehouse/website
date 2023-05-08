@@ -1,2 +1,4 @@
-export { GetStartedPage } from "./GetStartedPage";
-export { NotFoundPage } from './NotFoundPage'
+export { FriendlyLocalProjects } from "./FriendlyLocalProjects";
+export { HowBadIsTheAirInLimeHouse } from "./HowBadIsTheAirInLimeHouse";
+export { WhatWeWant } from "./WhatWeWant";
+export { WhyLimeHouseNeedsGreenInfrastructure } from "./WhyLimeHouseNeedsGreenInfrastructure";

@@ -16,7 +16,7 @@ export const Widget: FC<WidgetProps> = (props) => {
 
 const WidgetContainer = chakra(GridItem, {
     baseStyle: {
-      border: "1px solid rgba(0, 0, 0, 0.1)",
+      outline: "2px solid rgba(0, 0, 0, 0.1)",
       flexDirection: "column",
       boxSize: "border-box",
       borderRadius: "md",

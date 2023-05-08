@@ -1,19 +1,10 @@
-import { Outlet } from "react-router-dom";
 import { Container } from "@chakra-ui/react";
+import { Outlet } from "react-router-dom";
 
 export const RootLayout = () => {
   return (
-    <>
-      <Container
-        maxW="container.xl"
-        minW="container.lg"
-        minH={"100vh"}
-        maxH={"100vh"}
-        overflowY="scroll"
-        p={2}
-      >
-        <Outlet />
-      </Container>
-    </>
+    <Container minW="7xl" maxW="8xl">
+      <Outlet />
+    </Container>
   );
 };

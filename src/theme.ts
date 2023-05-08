@@ -7,8 +7,9 @@ export const theme = extendTheme({
     },
   },
   fonts: {
-    heading: `'Open Sans', sans-serif`,
+    heading: `Oswald, sans-serif;`,
     body: `'Open Sans', sans-serif`,
+    
   },
   colors: {
     brand: {
