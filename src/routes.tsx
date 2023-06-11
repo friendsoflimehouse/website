@@ -45,13 +45,14 @@ export const routes: Route[] = [
     element: <WhyLimeHouseNeedsGreenInfrastructure />,
   },
   {
-    name: "Friendly projects",
+    name: "friendly projects",
     path: "/friendly-local-projects",
     icon: MdOutlineHandshake,
     showInHeaderNav: true,
     element: <FriendlyLocalProjects />,
   },
   {
+    name: "subscribe",
     showInHeaderNav: true,
     path: "/subscribe",
     element: <Subscribe />
