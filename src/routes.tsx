@@ -4,6 +4,7 @@ import {
   FriendlyLocalProjects,
   WhatWeWant,
   WhyLimeHouseNeedsGreenInfrastructure,
+  Subscribe,
 } from "~/pages";
 
 import { MdOutlineHandshake } from "react-icons/md";
@@ -50,4 +51,9 @@ export const routes: Route[] = [
     showInHeaderNav: true,
     element: <FriendlyLocalProjects />,
   },
+  {
+    showInHeaderNav: true,
+    path: "/subscribe",
+    element: <Subscribe />
+  }
 ];
