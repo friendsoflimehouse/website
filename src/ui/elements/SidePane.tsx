@@ -80,6 +80,7 @@ export const SidePane = () => {
                         fontSize="small"
                         borderBottom="1px solid silver"
                       >
+                        hello@friendsoflimehouse.com
                       </Link>
 
                     </Text>
