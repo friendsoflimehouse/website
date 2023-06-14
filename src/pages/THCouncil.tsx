@@ -20,10 +20,8 @@ export const THCouncil = () => {
           <Text mb={4}>
             We need residents to be aware of these issues. Together, we must persuade the Council of Tower Hamlets to do its work in addressing air pollution strategically.
           </Text>
-        </Stack>
       </CardBody>
     </Card>
- 
 
     );
 };
