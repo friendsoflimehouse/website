@@ -2,7 +2,6 @@ import {
   Text,
   Card,
   Heading,
-  StackDivider,
   CardBody,
   Box,
   Stack,
@@ -12,7 +11,12 @@ export const WhatWeWant = () => {
   return (
     <Card variant="unstyled">
       <CardBody>
-        <Stack divider={<StackDivider />} spacing="8">
+        <Stack spacing="8">
+        <Box>
+        <Text pt="2" fontSize="md">
+        Friends of Limehouse is an East London non-profit organization focused on improving the local environment starting with air quality. We want to transform local air quality by uniting residents, communities, businesses, and authorities to support London's ambition as a Green City. Together, we must persuade the Council of Tower Hamlets to do its work in addressing air pollution strategically.
+            </Text>
+            </Box>
           <Box>
             <Heading
               size="sm"
@@ -20,17 +24,16 @@ export const WhatWeWant = () => {
               fontWeight={400}
               color="green.500"
             >
-              Tackle Pollution in Limehouse
+              Issue
             </Heading>
             <Text pt="2" fontSize="md">
-              We want to reverse this by developing and following an
-              evidence-based, strategic approach to tackle pollution We can’t
-              just plant some trees and hope they will absorb the pollution
-              Planting the trees on the wrong road side can only increase
-              pollution Improving air quality is a sophisticated process We have
-              reached out to ARUP, a global team of experts in air pollution
-              ARUP is happy to do research on the area and provide systematic
-              recommendations. Their master plan would cost £50K.
+            Air pollution in Limehouse is one of the worst in London and is higher by 30% than in the rest of Tower Hamlets. It is over twice the legal limit due to the fumes from the Rotherhithe and Limehouse Link Tunnels and the lack of green space.
+
+Air pollution affects the health and well-being of all Limehouse residents, particularly children and older generations, with a larger than national average number of asthma and other allergic and cardiovascular diseases.
+
+Limehouse still looks like when it was a working dock, with very little green space. There's only 23,3% of open space, and opportunities to provide additional open space are extremely limited, given how densely populated it is.
+
+Air pollution mainly comes from using cars. The latest TfL data shows that Tower Hamlets has the lowest car ownership rate of any London borough. Despite its [legal obligation](https://www.london.gov.uk/sites/default/files/air_quality_for_public_health_professionals_-_lb_tower_hamlets.pdf) to improve air quality in the area, **the Council of Tower Hamlets** welcomes more traffic to pass through the borough. To address environmental and other issues, ****the ****Council allocates annually a proportion of the funding received from developers, called the Local Infrastructure Fund. In response to our request, the Council claimed that this budget is not accessible.
             </Text>
             <Text pt="2" fontSize="md">
               We would need extra budget for its implementation Tower Hamlets
@@ -45,20 +48,20 @@ export const WhatWeWant = () => {
               fontWeight={400}
               color="green.500"
             >
-              Vision for a Healthy and Sustainable Limehouse Community
+              Solution
             </Heading>
             <Text pt="2" fontSize="md">
-              We want Limehouse to be a safe, healthy space for the local
-              community to flourish We want to return the agency to Limehouse
-              residents. We can do this together We need an evidence-based,
-              strategic approach to tackle pollution instead of just relying on
-              planting trees to absorb it Planting trees in the wrong areas
-              could even worsen the situation Improving air quality is a complex
-              process, and we need expert advice We reached out to ARUP, a team
-              of global air pollution experts, and they are willing to conduct
-              research on the area and provide systematic recommendations
-              However, their master plan will cost £50K, and we'll need
-              additional budget to implement it
+            Improving air quality is a complex process requiring a strategic, evidence-based approach. We need to reduce the number of cars, manage traffic using modern AI systems, provide safe walking and cycling options, and build Green Infrastructure absorbing pollution.
+
+As part of the **Neighbourhood Forum**, we organized four personal consultations and a media one with several hundred residents of Limehouse. Most participants emphasized the lack of open spaces — in other words, Green Infrastructure.
+
+We invited **[UCL](https://www.ucl.ac.uk/)** to find evidence for these results. UCL's [research](https://friendsoflimehouse.com/assets/UCL_GI_Report-f548f68b.pdf) states that Limehouse is the most polluted area of Tower Hamlets, with three times the population density of London and not enough green space, which is a [Local Plan](https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx) stated deficiency.
+
+With these results, we came to **[ARUP](https://www.arup.com/)**, the world's leading architectural bureau specializing in air pollution. ARUP [proposed](https://friendsoflimehouse.com/assets/2.6.20_FOL_GI_Masterplan_Arup_proposal_03-167d00af.pdf) creating a Green Infrastructure Master Plan for Limehouse. Master Plan would provide a vision for sustainable development of the area reducing air pollution, uniting and empowering local communities and mitigating climate change. It will cost £50,000, plus its implementation and regular maintenance.
+
+To address vehicle emissions, we have corresponded with the GLA and [TfL](https://tfl.gov.uk/) to request a highway assessment of the local road network. Adjustments to specific junction layouts and signal phasing timings could result in improved traffic flows and significant reductions in air pollution.
+
+[GLA](https://www.london.gov.uk/), [SusTrans](https://www.sustrans.org.uk/), [Breathe London](https://www.breathelondon.org/), and [CIHT](https://www.ciht.org.uk/) support our vision for improving air quality in Limehouse.
             </Text>
           </Box>
         </Stack>
