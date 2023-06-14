@@ -1,4 +1,4 @@
-import { Text, Card, Heading, StackDivider, CardBody, Box, Stack, Link } from "@chakra-ui/react";
+import { Text, Card, CardBody, Link } from "@chakra-ui/react";
 
 export const THCouncil = () => {
   return (
