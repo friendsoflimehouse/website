@@ -12,6 +12,7 @@ import { MdOutlineHandshake } from "react-icons/md";
 import { BiLeaf } from "react-icons/bi";
 import { HiOutlinePuzzle } from "react-icons/hi";
 import { FaRegGrimace } from "react-icons/fa";
+import { GiGreekTemple } from "react-icons/gi"
 import { As } from "@chakra-ui/react";
 
 type Route = {
@@ -55,7 +56,7 @@ export const routes: Route[] = [
   {
     name: "TH Council",
     path: "/tower-hamlets-council",
-    icon: MdOutlineHandshake,
+    icon: GiGreekTemple,
     showInHeaderNav: true,
     element: <THCouncil />,
   },
