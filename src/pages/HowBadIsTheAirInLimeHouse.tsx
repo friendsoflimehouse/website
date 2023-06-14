@@ -16,6 +16,7 @@ export const HowBadIsTheAirInLimeHouse = () => {
 Limehouse is among the worst polluted areas in London and highest by 30% in Tower Hamlets.
 
 The key pollutants come from car emissions. They are
+</Text>
 </Box>
 
 <Stack spacing={3}>
