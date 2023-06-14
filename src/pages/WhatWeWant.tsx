@@ -14,7 +14,7 @@ export const WhatWeWant = () => {
         <Stack spacing="8">
         <Box>
         <Text pt="2" fontSize="md">
-        Friends of Limehouse is an East London non-profit organization focused on improving the local environment starting with air quality. We want to transform local air quality by uniting residents, communities, businesses, and authorities to support London's ambition as a Green City. Together, we must persuade the Council of Tower Hamlets to do its work in addressing air pollution strategically.
+        Friends of Limehouse is an East London non-profit organization focused on improving the local environment starting with air quality. We want to transform local air quality by uniting residents, communities, businesses, and authorities to support London's ambition as a <Link color="blue.500" href="https://www.london.gov.uk/sites/default/files/the_london_plan_2021.pdf" isExternal>Green City</Link>. Together, we must persuade the Council of Tower Hamlets to do its work in addressing air pollution strategically.
             </Text>
             </Box>
           <Box>
@@ -50,14 +50,14 @@ Air pollution mainly comes from using cars. The latest TfL data shows that Tower
 
 As part of the Neighbourhood Forum, we organized four personal consultations and a media one with several hundred residents of Limehouse. Most participants emphasized the lack of open spaces — in other words, Green Infrastructure.
 
-We invited <Link color="blue.500" href="hhttps://www.ucl.ac.uk/" isExternal>UCL</Link> to find evidence for these results. UCL's <Link color="blue.500" href="hhttps://friendsoflimehouse.com/assets/UCL_GI_Report-f548f68b.pdf" isExternal>
+We invited <Link color="blue.500" href="hhttps://www.ucl.ac.uk/" isExternal>UCL</Link> to find evidence for these results. UCL's <Link color="blue.500" href="https://friendsoflimehouse.com/assets/UCL_GI_Report-f548f68b.pdf" isExternal>
 reserch</Link> states that Limehouse is the most polluted area of Tower Hamlets, with three times the population density of London and not enough green space, which is a <Link color="blue.500" href="https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx" isExternal>Local Plan</Link>stated deficiency.
 
 With these results, we came to <Link color="blue.500" href="https://www.arup.com/" isExternal>ARUP</Link>, the world's leading architectural bureau specializing in air pollution. ARUP <Link color="blue.500" href="https://friendsoflimehouse.com/assets/2.6.20_FOL_GI_Masterplan_Arup_proposal_03-167d00af.pdf" isExternal>proposed</Link> creating a Green Infrastructure Master Plan for Limehouse. Master Plan would provide a vision for sustainable development of the area reducing air pollution, uniting and empowering local communities and mitigating climate change. It will cost £50,000, plus its implementation and regular maintenance.
 
 To address vehicle emissions, we have corresponded with the GLA and <Link color="blue.500" href="hhttps://tfl.gov.uk/" isExternal>TfL</Link> to request a highway assessment of the local road network. Adjustments to specific junction layouts and signal phasing timings could result in improved traffic flows and significant reductions in air pollution.
 
-<Link color="blue.500" href="https://www.london.gov.uk/" isExternal>GLA</Link>, <Link color="blue.500" href="hhttps://www.sustrans.org.uk/" isExternal>SusTrans</Link>, <Link color="blue.500" href="https://www.breathelondon.org//" isExternal>Breathe London</Link>, and <Link color="blue.500" href="https://www.ciht.org.uk/" isExternal>CIHT</Link> support our vision for improving air quality in Limehouse.
+<Link color="blue.500" href="https://www.london.gov.uk/" isExternal>GLA</Link>, <Link color="blue.500" href="https://www.sustrans.org.uk/" isExternal>SusTrans</Link>, <Link color="blue.500" href="https://www.breathelondon.org//" isExternal>Breathe London</Link>, and <Link color="blue.500" href="https://www.ciht.org.uk/" isExternal>CIHT</Link> support our vision for improving air quality in Limehouse.
             </Text>
           </Box>
         </Stack>
