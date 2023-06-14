@@ -18,11 +18,13 @@ Limehouse is among the worst polluted areas in London and highest by 30% in Towe
 The key pollutants come from car emissions. They are
 </Text>
 </Box>
+</Stack>
 
 <Stack spacing={3}>
 <Text pt="2">🤢 Nitrogen Dioxide (NO2) and </Text>
 <Text pt="2">🤢 Particulate Matter (PM10)</Text>
 </Stack>
+Stack spacing="8">
 <Box>
 <Text pt="2">
 NO2 levels in Limehouse are around 80 μg/m3 with the UK legal limits at 40 μg/m3 and WHO recommendations at 25 μg/m3. Exposure to NO2 causes airway <a href="https://www.london.gov.uk/sites/default/files/col_air_quality_for_public_health_professionals.pdf
@@ -33,7 +35,7 @@ According to a <Link color="blue.500" href="https://www.who.int/europe/home?v=we
 To solve the air pollution problem in Limehouse, we must reduce the number of cars and build Green Infrastructure.
 </Text>
 </Box>
-            </Text>
+  
         </Stack>
       </CardBody>
     </Card>
