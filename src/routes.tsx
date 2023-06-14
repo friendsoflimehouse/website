@@ -45,7 +45,7 @@ export const routes: Route[] = [
     element: <WhyLimeHouseNeedsGreenInfrastructure />,
   },
   {
-    name: "friendly projects",
+    name: "local projects",
     path: "/friendly-local-projects",
     icon: MdOutlineHandshake,
     showInHeaderNav: true,
