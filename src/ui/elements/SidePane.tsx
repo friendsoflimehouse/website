@@ -55,7 +55,7 @@ export const SidePane = () => {
                     <Box>
                       Hi! Friends of limehouse is local residents group
                       established to help protect and enhance our natural
-                      environment in:
+                      environment in
                     </Box>
                   </Text>
                   <Text fontSize="small">
@@ -74,7 +74,7 @@ export const SidePane = () => {
                       display="inline"
                       fontSize="small"
                     >
-                      You have questions? Drop us an email anytime:
+                      Get in touch
                     </Text>
                     <Flex
                       p={"7px"}
@@ -84,18 +84,15 @@ export const SidePane = () => {
                     >
                       <Avatar name="Marina Walker" size={"sm"} />
                       <Link
-                        href="mailto:marina.k.walker@gmail.com"
+                        href="mailto:hello@friendsoflimehouse.com"
                         fontSize="small"
                         borderBottom="1px solid silver"
-                      >
-                        Marina Walker
+                        >
                       </Link>
                     </Flex>
 
                     <Text py={3} fontSize="small">
-                      We would greatly appreciate your support in our
-                      environment project. Please consider following our social
-                      media channels to stay up-to-date on our progress:
+                    Become a friend of Limehouse
                     </Text>
                     <HStack gap={1}>
                       <Link
@@ -128,29 +125,6 @@ export const SidePane = () => {
                     </HStack>
                   </Text>
                 </Box>
-                <Text
-                  fontSize="small"
-                  fontWeight={400}
-                  textIndent="10"
-                  letterSpacing={"0.8px"}
-                  border="1px solid"
-                  transform="translate(5px, -12px) skew(0deg)"
-                  borderColor="yellow.300"
-                  bgColor="yellow.100"
-                  boxShadow="md"
-                  p={3}
-                >
-                  Air pollution in Limehouse is one of the worst in London and
-                  is over twice the legal limit due to the fumes from the
-                  Rotherhithe tunnel and Limehouse Link Tunnels and the lack of
-                  green space.
-                  <br />
-                  This affects the health and wellbeing of the residents,
-                  particularly children and the elderly, with a larger than
-                  national average number of asthma and other allergic and
-                  cardiovascular diseases
-                </Text>
-
                 <Box position="relative">
                   <Text pb={2} fontSize={"sm"}>
                     Research Files:
