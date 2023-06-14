@@ -2,7 +2,6 @@ import {
   Box,
   Card,
   CardBody,
-  Heading,
   StackDivider,
   Text,
   Stack,
