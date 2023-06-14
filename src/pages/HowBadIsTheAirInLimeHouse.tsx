@@ -14,59 +14,24 @@ export const HowBadIsTheAirInLimeHouse = () => {
       <CardBody>
         <Stack divider={<StackDivider />} spacing="8">
           <Box>
-            <Heading
-              size="sm"
-              textTransform="uppercase"
-              fontWeight={400}
-              color="green.500"
-            >
-              Our Environment Problem
-            </Heading>
+            
             <Text pt="2">
-              Limehouse is among the worst polluted areas in London and highest
-              by 30% in Tower Hamlets. Nitrogen Dioxide (NO2) and Particulate
-              Matter (PM10), referring to particles less than 10 microns
-              (millionths of a metre) in diameter, are among the key pollutants.
-              They come from car emissions
-            </Text>
-          </Box>
-          <Box>
-            <Heading
-              size="sm"
-              textTransform="uppercase"
-              fontWeight={400}
-              color="green.500"
-            >
-              NO2 Pollution
-            </Heading>
-            <Text pt="2">
-              NO2 levels in Limehouse are around 80 μg/m3 with the UK legal
-              limits at 40 μg/m3 and WHO recommendations at 25 μg/m3. Exposure
-              to NO2 causes inflammation of the airways and can lead to asthma,
-              bronchitis and lung cancer. It reduces the life expectancy by at
-              least 6 months. A recent study by King's College notes that
-              children in Tower Hamlets are growing up with reduced lung
-              capacity due to NO2 exposure
-            </Text>
-          </Box>
-          <Box>
-            <Heading
-              size="sm"
-              textTransform="uppercase"
-              fontWeight={400}
-              color="green.500"
-            >
-              M10 Pollution
-            </Heading>
-            <Text pt="2">
-              According to WHO report, PM10 can accumulate in the respiratory
-              system and can result in a number of health effects ranging from
-              coughing and wheezing to asthma attacks, bronchitis, heart attacks
-              and strokes. The impacts are most severely felt by vulnerable
-              people such as children, older people and those with existing
-              heart and lung conditions. PM10 are so small, they can get very
-              deep in the lungs, from there into the bloodstream and cause
-              various types of cancer. WHO calls PM10 the main source of cancer
+
+Limehouse is among the worst polluted areas in London and highest by 30% in Tower Hamlets.
+
+The key pollutants come from car emissions. They are
+
+🤢 Nitrogen Dioxide (NO2) and
+
+🤢 Particulate Matter (PM10)
+
+NO2 levels in Limehouse are around 80 μg/m3 with the UK legal limits at 40 μg/m3 and WHO recommendations at 25 μg/m3. Exposure to NO2 causes airway <a href="https://www.london.gov.uk/sites/default/files/col_air_quality_for_public_health_professionals.pdf
+" target="_blank">inflammation</a> and can lead to asthma, bronchitis and lung cancer. It reduces the life expectancy by at least 6 months. A [recent study by King's College](https://www.kcl.ac.uk/news/air-pollution-restricting-childrens-lung-development) notes that children in Tower Hamlets are growing up with reduced lung capacity due to NO2 exposure.
+
+According to a WHO report https://www.euro.who.int/__data/assets/pdf_file/0006/189051/Health-effects-of-particulate-matter-final-Eng.pdf, PM10 can accumulate in the respiratory system. PM10 are tiny particles, less than 10 microns (millionths of a metre) in diameter. They can accumulate in the lungs and also cause asthma and other allergic and cardiovascular diseases. Because they are so little, they can get into the bloodstream and travel around the body, causing more inflammation. World Health Organization calls PM10 the main source of cancer.
+
+To solve the air pollution problem in Limehouse, we must reduce the number of cars and build Green Infrastructure.
+            
             </Text>
           </Box>
         </Stack>
