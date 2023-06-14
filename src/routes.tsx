@@ -4,6 +4,7 @@ import {
   FriendlyLocalProjects,
   WhatWeWant,
   WhyLimeHouseNeedsGreenInfrastructure,
+  THCouncil,
   Subscribe,
 } from "~/pages";
 
@@ -25,34 +26,41 @@ export const onlyHeaderLinks = (route: Route) => route.showInHeaderNav;
 export const routes: Route[] = [
   {
     path: "/",
-    name: "What we want?",
+    name: "About us",
     icon: HiOutlinePuzzle,
     showInHeaderNav: true,
     element: <WhatWeWant />,
   },
   {
-    name: "How bad is the air in limehouse?",
+    name: "Air in Limehouse",
     path: "/how-bad-is-the-air-in-limehouse",
     icon: FaRegGrimace,
     showInHeaderNav: true,
     element: <HowBadIsTheAirInLimeHouse />,
   },
   {
-    name: "Why limehouse needs GI?",
+    name: "Green Infrastructure",
     path: "/why-limehouse-needs-green-infrastructure",
     icon: BiLeaf,
     showInHeaderNav: true,
     element: <WhyLimeHouseNeedsGreenInfrastructure />,
   },
   {
-    name: "local projects",
+    name: "Local projects",
     path: "/friendly-local-projects",
     icon: MdOutlineHandshake,
     showInHeaderNav: true,
     element: <FriendlyLocalProjects />,
   },
   {
-    name: "subscribe",
+    name: "TH Council",
+    path: "/tower-hamlets-council",
+    icon: MdOutlineHandshake,
+    showInHeaderNav: true,
+    element: <THCouncil />,
+  },
+  {
+    name: "Subscribe",
     showInHeaderNav: true,
     path: "/subscribe",
     element: <Subscribe />
