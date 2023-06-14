@@ -74,25 +74,17 @@ export const SidePane = () => {
                       display="inline"
                       fontSize="small"
                     >
-                      Get in touch
-                    </Text>
-                    <Flex
-                      p={"7px"}
-                      gap={3}
-                      alignItems="center"
-                      justifyContent="flex-start"
-                    >
-                      <Avatar name="Marina Walker" size={"sm"} />
+                      Get in touch{" "}
                       <Link
                         href="mailto:hello@friendsoflimehouse.com"
                         fontSize="small"
                         borderBottom="1px solid silver"
-                        >
+                      >
                       </Link>
-                    </Flex>
 
+                    </Text>
                     <Text py={3} fontSize="small">
-                    Become a friend of Limehouse
+                      Become a friend of Limehouse
                     </Text>
                     <HStack gap={1}>
                       <Link
