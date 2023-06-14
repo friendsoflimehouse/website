@@ -7,7 +7,6 @@ import {
   Box,
   Img,
   Text,
-  Avatar,
 } from "@chakra-ui/react";
 import logoUrl from "~/assets/images/logo.svg";
 import doc1CoverUrl from "~/assets/images/doc1cover.png";
