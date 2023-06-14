@@ -35,11 +35,6 @@ Limehouse still looks like when it was a working dock, with very little green sp
 
 Air pollution mainly comes from using cars. The latest TfL data shows that Tower Hamlets has the lowest car ownership rate of any London borough. Despite its <Link color="blue.500" href="https://www.london.gov.uk/sites/default/files/air_quality_for_public_health_professionals_-_lb_tower_hamlets.pdf" isExternal>legal</Link> obligation improve air quality in the area, the Council of Tower Hamlets welcomes more traffic to pass through the borough. To address environmental and other issues, the Council allocates annually a proportion of the funding received from developers, called the Local Infrastructure Fund. In response to our request, the Council claimed that this budget is not accessible.
             </Text>
-            <Text pt="2" fontSize="md">
-              We would need extra budget for its implementation Tower Hamlets
-              Council does have a budget for tackling pollution but is not
-              taking action to improve the air quality in the area
-            </Text>
           </Box>
           <Box>
             <Heading
@@ -56,8 +51,7 @@ Air pollution mainly comes from using cars. The latest TfL data shows that Tower
 As part of the Neighbourhood Forum, we organized four personal consultations and a media one with several hundred residents of Limehouse. Most participants emphasized the lack of open spaces — in other words, Green Infrastructure.
 
 We invited <Link color="blue.500" href="hhttps://www.ucl.ac.uk/" isExternal>UCL</Link> to find evidence for these results. UCL's <Link color="blue.500" href="hhttps://friendsoflimehouse.com/assets/UCL_GI_Report-f548f68b.pdf" isExternal>
-reserch</Link> states that Limehouse is the most polluted area of Tower Hamlets, with three times the population density of London and not enough green space, which is a <Link color="blue.500" href="https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx" isExternal>Local Plan
-" isExternal>research</Link>stated deficiency.
+reserch</Link> states that Limehouse is the most polluted area of Tower Hamlets, with three times the population density of London and not enough green space, which is a <Link color="blue.500" href="https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx" isExternal>Local Plan</Link>stated deficiency.
 
 With these results, we came to <Link color="blue.500" href="https://www.arup.com/" isExternal>ARUP</Link>, the world's leading architectural bureau specializing in air pollution. ARUP <Link color="blue.500" href="https://friendsoflimehouse.com/assets/2.6.20_FOL_GI_Masterplan_Arup_proposal_03-167d00af.pdf" isExternal>proposed</Link> creating a Green Infrastructure Master Plan for Limehouse. Master Plan would provide a vision for sustainable development of the area reducing air pollution, uniting and empowering local communities and mitigating climate change. It will cost £50,000, plus its implementation and regular maintenance.
 
