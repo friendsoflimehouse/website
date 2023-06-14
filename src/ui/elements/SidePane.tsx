@@ -125,7 +125,7 @@ export const SidePane = () => {
                     </HStack>
                   </Text>
                 </Box>
-                <Box position="relative">
+                <Box position="relative" transform="translateY(30px)">
                   <Text pb={2} fontSize={"sm"}>
                     Research Files:
                   </Text>
