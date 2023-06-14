@@ -12,15 +12,15 @@ export const HowBadIsTheAirInLimeHouse = () => {
       <CardBody>
         <Stack spacing="8">
           <Box>
-            
             <Text pt="2">
-
 Limehouse is among the worst polluted areas in London and highest by 30% in Tower Hamlets.
 
 The key pollutants come from car emissions. They are
+</Box>
+
 <Stack spacing={3}>
 <Text fontSize='6xl'>(6xl)>🤢 Nitrogen Dioxide (NO2) and </Text>
-<Text fontSize='6xl'>(6xl)></Text>🤢 Particulate Matter (PM10)</Text>
+<Text fontSize='6xl'>(6xl)>🤢 Particulate Matter (PM10)</Text>
 </Stack>
 NO2 levels in Limehouse are around 80 μg/m3 with the UK legal limits at 40 μg/m3 and WHO recommendations at 25 μg/m3. Exposure to NO2 causes airway <a href="https://www.london.gov.uk/sites/default/files/col_air_quality_for_public_health_professionals.pdf
 " target="_blank">inflammation</a> and can lead to asthma, bronchitis and lung cancer. It reduces the life expectancy by at least 6 months. A <Link color="blue.500" href="https://www.kcl.ac.uk/news/air-pollution-restricting-childrens-lung-development" isExternal>recent study by King's College</Link> notes that children in Tower Hamlets are growing up with reduced lung capacity due to NO2 exposure.
