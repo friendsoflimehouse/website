@@ -1,11 +1,9 @@
 import {
   Text,
   Card,
-  Heading,
   CardBody,
   Box,
   Link,
-  
   Stack,
 } from "@chakra-ui/react";
 
