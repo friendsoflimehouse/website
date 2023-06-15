@@ -113,7 +113,9 @@ export const FriendlyLocalProjects = () => {
           Social Streets
         </Link>
         <ListItem>
-        <Link color="blue.500" href="https://www.poplarharca.co.uk" isExternal>Poplar HARCA</Link>
+        <Link color="blue.500" href="https://www.poplarharca.co.uk" isExternal>
+          Poplar HARCA
+          </Link>
       </ListItem>
     </List>
   );
