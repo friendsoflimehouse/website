@@ -75,11 +75,11 @@ export const SidePane = () => {
                     >
                       Get in touch{" "}
                       <Link
-                        href="mailto:hello@friendsoflimehouse.com"
+                        href="mailto:admin@friendsoflimehouse.com"
                         fontSize="small"
                         borderBottom="1px solid silver"
                       >
-                        hello@friendsoflimehouse.com
+                        admin@friendsoflimehouse.com
                       </Link>
 
                     </Text>
